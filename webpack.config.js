@@ -10,14 +10,14 @@ module.exports = {
 
     // 서버관련 설정을 진행
     devServer: {
-        inline: true,
+        inline: false,
         port: 3000,
         contentBase: __dirname + '/public/'
     },
 
     // react es6 기준으로 작성을 함에 따라 트랜스파일링을 해준다.
     module: {
-            loaders: [
+        rules: [
                 {
                     test: /\.js$/,
                     loader: 'babel-loader',
