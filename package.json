@@ -1,0 +1,19 @@
+{
+  "name": "basic-react-dev",
+  "version": "0.0.1",
+  "description": "Basic wepack-dev-setting repo for making simple project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeonHyungJo/basic-react-dev.git"
+  },
+  "author": "SeonHyungJo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeonHyungJo/basic-react-dev/issues"
+  },
+  "homepage": "https://github.com/SeonHyungJo/basic-react-dev#readme"
+}
