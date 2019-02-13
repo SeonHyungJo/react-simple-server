@@ -12,7 +12,7 @@ module.exports = {
 
     // 서버관련 설정을 진행
     devServer: {
-        inline: false,
+        inline: true,
         port: 3000,
         contentBase: __dirname + '/public/'
     },
