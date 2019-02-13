@@ -8,6 +8,8 @@ module.exports = {
         filename: 'bundle.js'
     },
 
+    mode: 'development',
+
     // 서버관련 설정을 진행
     devServer: {
         inline: false,
