@@ -1,4 +1,4 @@
-# simple-react-server
+# react-simple-server
 
 Create very very Simple react repo for making library
 
