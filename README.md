@@ -1,6 +1,8 @@
 # simple-react-server
 
-Create very very Simple react repo for making library
+Create very very Simple react repo to making library
+
+**NOT USE WEBPACK-DEV-SERVER CONFIG VERSION**
 
 ## :zap: Start Server
 
@@ -79,44 +81,6 @@ node_modules
 public
 
 *.config.js
-```
-
-
-## webpack.config.js
-
-```js
-module.exports = {
-    entry: './src/index.js',
-    output: {
-        path: __dirname + '/public/',
-        filename: 'bundle.js'
-    },
-
-    // You have to add this option
-    // none, development, production
-    mode: 'development',
-
-    devServer: {
-        inline: true, //Hot Module
-        port: 3000,
-        contentBase: __dirname + '/public/'
-    },
-
-    // We can use ES6
-    module: {
-        rules: [
-                {
-                    test: /\.js$/,
-                    loader: 'babel-loader',
-                    exclude: /node_modules/,
-                    query: {
-                        cacheDirectory: true,
-                        presets: ['es2015', 'react']
-                    }
-                }
-            ]
-        }
-};
 ```
 
 ## vscode / settings.json
