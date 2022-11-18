@@ -39,7 +39,7 @@
     "prettier-eslint": "^9.0.1",
     "prettier-eslint-cli": "^5.0.0",
     "webpack": "^4.41.4",
-    "webpack-cli": "^3.3.10",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.10.1"
   }
 }
